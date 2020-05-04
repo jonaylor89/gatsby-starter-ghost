@@ -1,0 +1,13 @@
+{
+  "name": "johannes-blog",
+  "version": 2,
+  "routes": [
+    {
+      "src": "/ghost",
+      "status": 308,
+      "headers": {
+        "Location": "https://johannes-blog.herokuapp.com/ghost"
+      }
+    }
+  ]
+}
